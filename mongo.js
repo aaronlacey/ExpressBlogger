@@ -9,7 +9,7 @@ async function mongoConnect() {
 	try {
 		// Connect the client to the server
 		await client.connect();
-		database = await client.db(process.env.DATABASE);
+		database = await client.db("blog_data");
 		// Establish and verify connection
 		console.log("db connected");
 	} catch (error) {

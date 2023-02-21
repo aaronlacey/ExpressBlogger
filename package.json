@@ -1,9 +1,9 @@
 {
-  "name": "expressblogger",
+  "name": "express-generators",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "open http://127.0.0.1:3000 && nodemon ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,6 +14,7 @@
     "jade": "^0.29.0",
     "mongodb": "^5.0.1",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
   }
 }
